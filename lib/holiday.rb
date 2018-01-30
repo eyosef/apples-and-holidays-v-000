@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "  #{holidays.capitalize}: #{supplies}"
   end #each
 end #each
-  formatted
+
 
 
   #   :winter => {
