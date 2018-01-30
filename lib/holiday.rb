@@ -65,6 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
 
   holiday_supplies.each {|season, holiday| season.to_s}
   holiday_supplies
+  binding.pry
 
   #hash.index(value)
 
