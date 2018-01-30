@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
   end #each
 end #each
   formatted
-  binding.pry
+
 
   #   :winter => {
   #     :christmas => ["Lights", "Wreath"],
