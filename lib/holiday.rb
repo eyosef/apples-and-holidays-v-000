@@ -64,7 +64,6 @@ end
 def all_supplies_in_holidays(holiday_hash)
   # holiday_hash.fetch(:winter)
   formatted_hash = holiday_hash.to_a
-  formatted_hash.merge!({seasons.capitalize => holidays.capitalize})
   formatted_hash
 
 
