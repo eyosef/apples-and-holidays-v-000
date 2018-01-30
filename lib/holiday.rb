@@ -64,9 +64,9 @@ end
 def all_supplies_in_holidays(holiday_hash)
   formatted_hash = holiday_hash.to_a
   holiday_supplies.each do |season, holiday|
-    print [:holiday_supplies][:winter]
+    [:holiday_supplies][:winter]
   end
-binding.pry 
+binding.pry
 
 
   #hash.index(value)
