@@ -66,7 +66,6 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_supplies.each do |season, holiday|
     holiday_supplies.dig(:fall, :winter, :spring, :summer)
   end
-binding.pry
 
 
 
