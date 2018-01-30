@@ -67,8 +67,6 @@ def all_supplies_in_holidays(holiday_hash)
     season.to_s
   end
 
-binding.pry
-
 
   #hash.index(value)
 
