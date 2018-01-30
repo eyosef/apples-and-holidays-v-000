@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
 
   formatted = holiday_supplies.to_a
   formatted.each do |season, holiday|
-    if season == :winter ||  season == :spring
+    if season == :winter ||  season == :spring || season == :summer || season == :fall
       :winter.to_s
     elsif season == :spring
       :spring.to_s
