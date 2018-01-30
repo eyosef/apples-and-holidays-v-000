@@ -64,7 +64,7 @@ end
 def all_supplies_in_holidays(holiday_hash)
   formatted_hash = holiday_hash.to_a
   holiday_hash.each do |season, holiday|
-    season.uppercase
+    
   end
 
 
