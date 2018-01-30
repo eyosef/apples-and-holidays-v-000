@@ -69,7 +69,6 @@ def all_supplies_in_holidays(holiday_hash)
       :winter.to_s
     end #if
   end #each
-  binding.pry
   #hash.index(value)
 
   # iterate through holiday_hash and print items such that your readout resembles:
