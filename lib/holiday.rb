@@ -62,7 +62,7 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 def all_supplies_in_holidays(holiday_hash)
-  holiday_hash.gsub( /_/, ' ')
+  holiday_hash.gsub( /New_year/, 'New Year')
 
   formatted = holiday_supplies.to_a.flatten
   holiday_supplies.each do |season, holidays|
