@@ -64,7 +64,7 @@ end
 def all_supplies_in_holidays(holiday_hash)
   formatted_hash = holiday_hash.to_a
   holiday_supplies.each do |season, holiday|
-    holiday_supplies.dig(:fall, :winter, :spring, :summer)
+    print [:holiday_supplies][:winter]
   end
 
 
