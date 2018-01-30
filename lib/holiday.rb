@@ -62,9 +62,6 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 def all_supplies_in_holidays(holiday_hash)
-  # holiday_hash.fetch(:winter)
-  # formatted_hash = holiday_hash.to_a.capitalize
-  # formatted_hash
   holiday_hash.each do |season|
     season.uppercase
   end
