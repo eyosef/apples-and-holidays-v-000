@@ -66,8 +66,6 @@ def all_supplies_in_holidays(holiday_hash)
   formatted = holiday_supplies.to_a
   formatted.each {|season, holiday| season.to_s && holiday.to_s}
   formatted
-  binding.pry
-
   #hash.index(value)
 
   # iterate through holiday_hash and print items such that your readout resembles:
