@@ -65,12 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
 
   formatted = holiday_supplies.to_a
   formatted.each do |season, holiday|
-    if season == :winter ||  season == :spring || season == :summer || season == :fall
-      :winter.to_s
-      :spring.to_s
-      :summer.to_s
-      :fall.to_s
-    end #if
+    puts "#{season.capitalize}"
   end #each
   #hash.index(value)
 binding.pry
