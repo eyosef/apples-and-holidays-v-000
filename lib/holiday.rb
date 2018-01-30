@@ -64,9 +64,9 @@ end
 def all_supplies_in_holidays(holiday_hash)
 
   formatted = holiday_supplies.to_a
-  formatted.each do |season, holiday|
+  formatted.each do |season, holidays|
     puts "#{season.capitalize}:"
-  formatted.each do |holiday, supplies|
+  formatted.each do |holidays, supplies|
   end #each
   #hash.index(value)
   # iterate through holiday_hash and print items such that your readout resembles:
